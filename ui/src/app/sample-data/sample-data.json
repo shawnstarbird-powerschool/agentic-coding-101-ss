@@ -1,0 +1,15 @@
+[
+    {
+        "url": "/api/language/fr",
+        "payload": {
+            "keys": {
+                "mfe starter pack|page 1|This is MFE-Starter-Pack page ONE.": "Ceci est français - Première page",
+                "mfe starter pack|page 2|This is MFE-Starter-Pack page TWO.": "Ceci est français - Page deux"
+              }
+        }
+    },
+    {
+        "url": "/api/students",
+        "payload": [{"firstName": "Brian"}, {"firstName": "Kristofer"}]
+    }
+]

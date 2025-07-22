@@ -1,0 +1,34 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2025-04-15T20:10:17.759Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AROAVSVS6BAHBCDU4QNRV:bobbleaux-do-not-modify.04770e72f472dfa26908@s-203fcb5dbfb549afa"
+      },
+      "requestParameters": { "sourceIPAddress": "10.0.144.9" },
+      "responseElements": {
+        "x-amz-request-id": "FXR537BN08M1AMTD",
+        "x-amz-id-2": "IeEJXTugxMlfEwwXMdi5H2gHY2085p9PIP5J3onjipQKYTabXYTCAxA/sRiUFPlC++3IerOH3mYYrFxfYSgS5MWl9yJjzjlG"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "N2FlYjMwNDYtZDJlNy00YWJlLTk2MjQtNmJlNWY3ZDA0OWJk",
+        "bucket": {
+          "name": "power-ftp-dev-pm-ext",
+          "ownerIdentity": { "principalId": "A1VKPTCB9OOUSZ" },
+          "arn": "arn:aws:s3:::power-ftp-dev-pm-ext"
+        },
+        "object": {
+          "key": "d920e82c-819e-4320-b08f-3781bd03091a/enrollment/build-start.txt",
+          "size": 11,
+          "eTag": "fad0b3d12c65e2c27ff62bd521128fcc",
+          "sequencer": "0067FEBD29BA48CC6B"
+        }
+      }
+    }
+  ]
+}

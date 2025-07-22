@@ -1,0 +1,6 @@
+{
+  "sessionRefHeader": "X-Session-Ref",
+  "sessionRefValue": "A9Z7BQ13KX5NM0V2W8RPLGTCFY6EHDUJOS41",
+  "mfeBackendServer": "https://api.dev.fileshare.powerschoolcorp.com",
+  "injectionRoute": "/ftp/*"
+}

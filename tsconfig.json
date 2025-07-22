@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    // Compile to javascript ES2018 (aka ES9)
+    "target": "ES2018",
+    // Set the module system to CommonJS specifically (the code here does not run in browser)
+    "module": "commonjs",
+    // Embed the source map content in the *.js file
+    "inlineSourceMap": true,
+    // Include the original content of the *.ts file as an embedded string in the source map
+    "inlineSources": true,
+    // Include additional APIs available in ES2018
+    "lib": ["es2018"],
+    // Generate type definition (*.d.ts) files
+    "declaration": true,
+    // Enable a wide range of type checking
+    "strict": true,
+    // Do not allow unspecified type annotations on fields and return values (would otherwise
+    // default to "any")
+    "noImplicitAny": true,
+    // Do not allow typed field to be set to null or undefined
+    "strictNullChecks": true,
+    // Do not allow "this" expressions with unspecified type
+    "noImplicitThis": true,
+    // Ensures that files are parsed in ECMAScript strict mode, and emit “use strict” for each
+    // source file (may be redundant since it defaults to true if "strict" is true)
+    "alwaysStrict": true,
+    // Do not allow unused local variables
+    "noUnusedLocals": false,
+    // Do not allow unused parameters in functions
+    "noUnusedParameters": false,
+    // Ensure all code paths in a function return a value when return type requires it
+    "noImplicitReturns": true,
+    // Do not allow fallthrough cases in switch statements (for example, missing a "break")
+    "noFallthroughCasesInSwitch": false,
+    // Do not allow a class property to declared with a non-undefined type
+    "strictPropertyInitialization": false,
+    // Decorators are a language feature which hasn't yet been fully ratified into the JavaScript
+    // specification. This means that the implementation version in TypeScript may differ from the
+    // implementation in JavaScript when it is decided by TC39.
+    "experimentalDecorators": true,
+    // Allows import to be written without needing "* as" when imported module DOES NOT explicitly
+    // specify a default export (e.g., import React from "react")
+    // Note: this sets "allowSyntheticDefaultImports" to true
+    "esModuleInterop": true
+  },
+  // Include only files in the these folders as part of Typescript compile
+  "include": ["src/**/*.ts"],
+  "exclude": ["cdk.out"]
+}

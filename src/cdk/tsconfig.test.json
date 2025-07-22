@@ -1,0 +1,6 @@
+{
+  // Extend the base tsconfig.json used for the normal compile
+  "extends": "./tsconfig.json",
+  // Include test files along with all other source code
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}

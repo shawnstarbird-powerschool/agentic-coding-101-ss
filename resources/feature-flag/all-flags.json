@@ -1,0 +1,18 @@
+{
+  "//": "Please see documentation - https://gitlab.com/powerschoolgroup/reference-architecture-templates/blueprint-package/-/tree/main/packages/feature-flag",
+  "deploy": false,
+  "project_key": "your-project-key-here",
+  "flag_format": "yourprojecthere-<type>-<date>-<description>",
+  "project_tag": "yourprojecthere",
+  "clone": "yourprojecthere-clone-20220505-basic",
+  "flags": {
+    "yourprojecthere-release-20220831-sample-flag": {
+      "description": "sample flag - see documentation",
+      "tags": []
+    },
+    "yourprojecthere-local-20220831-sample-flag": {
+      "description": "sample local flag - see documentation",
+      "tags": []
+    }
+  }
+}

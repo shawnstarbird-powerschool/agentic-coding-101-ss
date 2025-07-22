@@ -1,0 +1,14 @@
+{
+  "//": "Please see documentation - https://gitlab.powerschool.com/reference-architecture-templates/blueprint-package/-/tree/main/packages/feature-flag",
+  "deploy": true,
+  "project_key": "<<LAUNCH_DARKLY_PROJECT_KEY_HERE>>",
+  "flag_format": "<<PROJECT_TAG_HERE>>-<type>-<date>-<description>",
+  "project_tag": "<<PROJECT_TAG_HERE>>",
+  "clone": "<<PROJECT_TAG_HERE>>-clone-20220505-basic",
+  "flags": {
+    "<<PROJECT_TAG_HERE>>-local-20220603-sample-flag": {
+      "description": "sample flag - see documentation",
+      "tags": []
+    }
+  }
+}

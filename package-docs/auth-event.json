@@ -1,0 +1,117 @@
+{
+  "resource": "/servers/{serverId}/users/{username}/config",
+  "path": "/servers/s-fca17c1f04d44a1f9/users/user/config",
+  "httpMethod": "GET",
+  "headers": {
+    "amz-sdk-invocation-id": "90341023-bd43-5089-a970-1fe32110ba96",
+    "amz-sdk-request": "attempt=1",
+    "amz-sdk-retry": "0/0/500",
+    "b3": "67f54d20a55cb12c13c37efb8211c2f8-40f29d6c3eae903d-0",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-ASN": "14618",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "g8p23isxob.execute-api.us-east-1.amazonaws.com",
+    "Password": "ubuntu",
+    "PasswordBase64": "dWJ1bnR1",
+    "SourceIP": "82.24.200.99",
+    "traceparent": "00-67f54d20a55cb12c13c37efb8211c2f8-40f29d6c3eae903d-00",
+    "User-Agent": "aws-apig-java/1.12.782, aws-internal/3 aws-sdk-java/1.12.782 Linux/5.10.234-225.910.amzn2.x86_64 OpenJDK_64-Bit_Server_VM/17.0.14+8-LTS java/17.0.14 kotlin/2.0.21 vendor/Amazon.com_Inc. cfg/retry-mode/standard cfg/auth-source#STSAssumeRoleCredentialsProvider m/T exec-env/AWS_ECS_FARGATE",
+    "Via": "1.1 2b0c54ffe9876882253b010d44184bdc.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "w4aHvkSj-kfmFoq40e5BQLkPIQ3yNaGwqF42m_f4zAJKmO7ZxBW1Zg==",
+    "X-Amz-Date": "20250408T162152Z",
+    "X-Amz-Security-Token": "IQoJb3JpZ2luX2VjEAEaCXVzLWVhc3QtMSJGMEQCIBoN38SMt12oSOqwAIlXP0e0p1v3snQgAEPKDIa0RGVJAiBzqlplTA6YFSt1/GIXwLIuVNqg77TVcTXwV8dIx1eSaSrmAgh5EAAaDDM4MzcwMTA5MjM2NiIMxrJmhqKHEU7y8trLKsMCB0QyvY7jvy3qqkyx+nOGg/3xFDSpp4oc4mn4ZvZVfRYVq1YvHP4KVG8J3c/FG7uILDvjZKK6b7DDxgxawkxeVaITw8+mashSKBvUJIDBhSn4N9eiz8+YmVX+ihWSS+Gh7D6FsMtPbK/0ZPvdB5bSiAvu/X/k8bmIJKMRivPyYh4vFZB59chuxXuh6iVMB8BJBhibgYeDZSxFypKHNxiWmDKvTzJSxTFPxvPCDVkCktJ+BEU0+M/yvThv2Oqo9SHn28CDrMMmsmUPeCWJonV7AW3sWtJcRBbKNdHKwoxHfiedjY4P/fraeSM4ahzc35mzNn/z75+J1Fxjb7uZ9EWlZm5Or0UxhinsBjbtVJbCT5yqpFxD3H5GmOnQ0a+8CqZoayzHhN3ZqFbUSeAk8jrV+Gtiebhcss1FLS5JtJA1TErsBLIwoJrVvwY6wAFinTm5nb8N21AE1H0oSf0A5VMEYAr1Jt29kXJLK3HvNLrwKMzrdbCln+FPRDELFHMv4WYjwP9AvKmq7scWkRFLpiOOFdyzIdJgdQt12vVKzLNhz3DEOB2s2D8ShZ87NpelLu1+/NTN3Il/lwE+mg+bcHqA4IRMAGODWyShC+zu2IAOVjP+B6eO2mGHvTUGPYDAjb2HS6EGJsxmTNqmzB+gTDOFoee9nvMJdUg98lu6HKlMxmKkTdCPLZDMS7UZ1Ck=",
+    "X-Amzn-Trace-Id": "Self=1-67f54d20-5a7c9d167bf056877cf863bf;Root=1-67f54d20-a55cb12c13c37efb8211c2f8;Parent=40f29d6c3eae903d;Sampled=0",
+    "X-B3-Sampled": "0",
+    "X-B3-SpanId": "40f29d6c3eae903d",
+    "X-B3-TraceId": "67f54d20a55cb12c13c37efb8211c2f8",
+    "X-Forwarded-For": "35.153.43.237, 130.176.179.119",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "amz-sdk-invocation-id": ["90341023-bd43-5089-a970-1fe32110ba96"],
+    "amz-sdk-request": ["attempt=1"],
+    "amz-sdk-retry": ["0/0/500"],
+    "b3": ["67f54d20a55cb12c13c37efb8211c2f8-40f29d6c3eae903d-0"],
+    "CloudFront-Forwarded-Proto": ["https"],
+    "CloudFront-Is-Desktop-Viewer": ["true"],
+    "CloudFront-Is-Mobile-Viewer": ["false"],
+    "CloudFront-Is-SmartTV-Viewer": ["false"],
+    "CloudFront-Is-Tablet-Viewer": ["false"],
+    "CloudFront-Viewer-ASN": ["14618"],
+    "CloudFront-Viewer-Country": ["US"],
+    "Host": ["g8p23isxob.execute-api.us-east-1.amazonaws.com"],
+    "Password": ["ubuntu"],
+    "PasswordBase64": ["dWJ1bnR1"],
+    "SourceIP": ["82.24.200.99"],
+    "traceparent": ["00-67f54d20a55cb12c13c37efb8211c2f8-40f29d6c3eae903d-00"],
+    "User-Agent": [
+      "aws-apig-java/1.12.782, aws-internal/3 aws-sdk-java/1.12.782 Linux/5.10.234-225.910.amzn2.x86_64 OpenJDK_64-Bit_Server_VM/17.0.14+8-LTS java/17.0.14 kotlin/2.0.21 vendor/Amazon.com_Inc. cfg/retry-mode/standard cfg/auth-source#STSAssumeRoleCredentialsProvider m/T exec-env/AWS_ECS_FARGATE"
+    ],
+    "Via": ["1.1 2b0c54ffe9876882253b010d44184bdc.cloudfront.net (CloudFront)"],
+    "X-Amz-Cf-Id": ["w4aHvkSj-kfmFoq40e5BQLkPIQ3yNaGwqF42m_f4zAJKmO7ZxBW1Zg=="],
+    "X-Amz-Date": ["20250408T162152Z"],
+    "X-Amz-Security-Token": [
+      "IQoJb3JpZ2luX2VjEAEaCXVzLWVhc3QtMSJGMEQCIBoN38SMt12oSOqwAIlXP0e0p1v3snQgAEPKDIa0RGVJAiBzqlplTA6YFSt1/GIXwLIuVNqg77TVcTXwV8dIx1eSaSrmAgh5EAAaDDM4MzcwMTA5MjM2NiIMxrJmhqKHEU7y8trLKsMCB0QyvY7jvy3qqkyx+nOGg/3xFDSpp4oc4mn4ZvZVfRYVq1YvHP4KVG8J3c/FG7uILDvjZKK6b7DDxgxawkxeVaITw8+mashSKBvUJIDBhSn4N9eiz8+YmVX+ihWSS+Gh7D6FsMtPbK/0ZPvdB5bSiAvu/X/k8bmIJKMRivPyYh4vFZB59chuxXuh6iVMB8BJBhibgYeDZSxFypKHNxiWmDKvTzJSxTFPxvPCDVkCktJ+BEU0+M/yvThv2Oqo9SHn28CDrMMmsmUPeCWJonV7AW3sWtJcRBbKNdHKwoxHfiedjY4P/fraeSM4ahzc35mzNn/z75+J1Fxjb7uZ9EWlZm5Or0UxhinsBjbtVJbCT5yqpFxD3H5GmOnQ0a+8CqZoayzHhN3ZqFbUSeAk8jrV+Gtiebhcss1FLS5JtJA1TErsBLIwoJrVvwY6wAFinTm5nb8N21AE1H0oSf0A5VMEYAr1Jt29kXJLK3HvNLrwKMzrdbCln+FPRDELFHMv4WYjwP9AvKmq7scWkRFLpiOOFdyzIdJgdQt12vVKzLNhz3DEOB2s2D8ShZ87NpelLu1+/NTN3Il/lwE+mg+bcHqA4IRMAGODWyShC+zu2IAOVjP+B6eO2mGHvTUGPYDAjb2HS6EGJsxmTNqmzB+gTDOFoee9nvMJdUg98lu6HKlMxmKkTdCPLZDMS7UZ1Ck="
+    ],
+    "X-Amzn-Trace-Id": [
+      "Self=1-67f54d20-5a7c9d167bf056877cf863bf;Root=1-67f54d20-a55cb12c13c37efb8211c2f8;Parent=40f29d6c3eae903d;Sampled=0"
+    ],
+    "X-B3-Sampled": ["0"],
+    "X-B3-SpanId": ["40f29d6c3eae903d"],
+    "X-B3-TraceId": ["67f54d20a55cb12c13c37efb8211c2f8"],
+    "X-Forwarded-For": ["35.153.43.237, 130.176.179.119"],
+    "X-Forwarded-Port": ["443"],
+    "X-Forwarded-Proto": ["https"]
+  },
+  "queryStringParameters": {
+    "protocol": "SFTP",
+    "sourceIp": "82.24.200.99"
+  },
+  "multiValueQueryStringParameters": {
+    "protocol": ["SFTP"],
+    "sourceIp": ["82.24.200.99"]
+  },
+  "pathParameters": {
+    "serverId": "s-fca17c1f04d44a1f9",
+    "username": "user"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "resourceId": "d2qqd9",
+    "resourcePath": "/servers/{serverId}/users/{username}/config",
+    "httpMethod": "GET",
+    "extendedRequestId": "Itj9LFPHoAMEJyA=",
+    "requestTime": "08/Apr/2025:16:21:52 +0000",
+    "path": "/prod/servers/s-fca17c1f04d44a1f9/users/user/config",
+    "accountId": "383701092366",
+    "protocol": "HTTP/1.1",
+    "stage": "prod",
+    "domainPrefix": "g8p23isxob",
+    "requestTimeEpoch": 1744129312732,
+    "requestId": "e42d2005-132c-43f1-9c86-3bbe194dcedb",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": "383701092366",
+      "cognitoIdentityId": null,
+      "caller": "AROAVSVS6BAHBZZQXPM2U:aws-necco-external-auth-invoker",
+      "sourceIp": "35.153.43.237",
+      "principalOrgId": "o-igx9gui98k",
+      "accessKey": "ASIAVSVS6BAHIPX2EPFR",
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": "arn:aws:sts::383701092366:assumed-role/power-ftp-dev-stack-TransferInvocationRole207271E4-J6FivMnA0sdj/aws-necco-external-auth-invoker",
+      "userAgent": "aws-apig-java/1.12.782, aws-internal/3 aws-sdk-java/1.12.782 Linux/5.10.234-225.910.amzn2.x86_64 OpenJDK_64-Bit_Server_VM/17.0.14+8-LTS java/17.0.14 kotlin/2.0.21 vendor/Amazon.com_Inc. cfg/retry-mode/standard cfg/auth-source#STSAssumeRoleCredentialsProvider m/T exec-env/AWS_ECS_FARGATE",
+      "user": "AROAVSVS6BAHBZZQXPM2U:aws-necco-external-auth-invoker"
+    },
+    "domainName": "g8p23isxob.execute-api.us-east-1.amazonaws.com",
+    "deploymentId": "ehb88o",
+    "apiId": "g8p23isxob"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
